@@ -6,7 +6,7 @@ public abstract class Tile {
         this.tileCoordinate=tileCoordinate;
     }
     public abstract boolean isTileOccupied();
-    public abstract Piece getPiece();
+    //public abstract Piece getPiece();
     public static final class EmptyTile{
         EmptyTile(int coordinate){
 
